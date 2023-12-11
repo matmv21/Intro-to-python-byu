@@ -1,0 +1,21 @@
+# First name, Last name, Email Address, Phone Number, Job Title, ID Number
+print('Please enter the following information:')
+print()
+
+first_name = input('What is you first name? ')
+last_name = input('What is your last name? ')
+email_address = input('Please enter your email address: ')
+phone_number = input('Please enter your phone number: ')
+job_title = input('What is your job title? ')
+id_number = input('Please inform your ID number: ')
+
+print()
+print('The ID Card is:')
+print('----------------------------------------')
+print('{1}, {0}'.format(first_name.capitalize(), last_name.upper()))
+print('{0}'.format(job_title.title()))
+print('ID: {0}'.format(id_number))
+print()
+print('{0}'.format(email_address.lower()))
+print('{0}'.format(phone_number))
+print('----------------------------------------')
